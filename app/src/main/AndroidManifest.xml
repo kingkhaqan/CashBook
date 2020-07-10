@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zeesh.cashbook">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book_keeping"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <service android:name=".LoginIntenService" />
+        <service android:name=".LoginIntenService" />
+        <service android:name=".SignupIntentService" />
+        <service android:name=".TransactionListIntentService" />
+        <service android:name=".LabledTransactionsList" />
+        <service android:name=".InsertTransactionIntentService" />
+        <service android:name=".MonthTransactionList" />
+        <service android:name=".DecodeBmpIntent" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login2Activity" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+
+        <activity android:name=".Splash7Activity"
+            android:theme="@style/MyMaterialTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

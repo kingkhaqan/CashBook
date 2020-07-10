@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+
+    <item android:drawable="@color/colorPrimaryDark"/>
+
+    <item
+        android:width="180dp"
+        android:height="30dp"
+        android:drawable="@drawable/cb_logo_white"
+        android:gravity="center" />
+
+    <!--<item>-->
+
+
+        <!--<bitmap-->
+            <!--android:src="@drawable/cb_logo_white"-->
+            <!--android:gravity="fill_horizontal"/>-->
+
+    <!--</item>-->
+
+</layer-list>

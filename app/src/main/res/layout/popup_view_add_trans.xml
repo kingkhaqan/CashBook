@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/edittext_amount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Amount"
+        android:background="@drawable/white_btn_bkg"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/edittext_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Title"
+        android:background="@drawable/white_btn_bkg"/>
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/edittext_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note"
+        android:background="@drawable/white_btn_bkg"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_datepick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:background="@drawable/blue_btn_bkg"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_reciept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reciept"
+        android:background="@drawable/blue_btn_bkg"
+        android:textColor="#fff"/>
+
+
+    <ImageView
+        android:id="@+id/imageview_reciept"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"/>
+
+
+
+
+
+</LinearLayout>
